@@ -5,10 +5,10 @@
  * Classe: ContaPoupancaDAO
  */
 
-package br.uniplan.java_banco_acme.dao;
+package br.uniplan.java.banco.acme.dao;
 
-import br.uniplan.java_banco_acme.model.ContaPoupanca;
-import br.uniplan.java_banco_acme.util.ConexaoMySQL;
+import br.uniplan.java.banco.acme.model.ContaPoupanca;
+import br.uniplan.java.banco.acme.util.ConexaoMySQL;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

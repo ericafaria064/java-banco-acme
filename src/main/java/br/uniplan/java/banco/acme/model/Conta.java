@@ -5,7 +5,7 @@
  * Classe: Conta
  */
 
-package br.uniplan.java_banco_acme.model;
+package br.uniplan.java.banco.acme.model;
 
 import java.util.Date;
 

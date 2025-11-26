@@ -18,6 +18,12 @@ repositories {
 
 dependencies {
 	implementation 'com.mysql:mysql-connector-j:8.0.33'
+
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+	testImplementation 'org.mockito:mockito-core:5.5.0'
+	testImplementation 'org.mockito:mockito-junit-jupiter:5.5.0'
+	
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 tasks.named('test') {
@@ -26,6 +32,6 @@ tasks.named('test') {
 
 // Task para executar a aplicação
 task run(type: JavaExec) {
-	mainClass = 'br.uniplan.java_banco_acme.view.TelaPrincipal'
+	mainClass = 'br.uniplan.java.banco.acme.view.TelaPrincipal'
 	classpath = sourceSets.main.runtimeClasspath
 }

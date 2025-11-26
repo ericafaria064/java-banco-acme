@@ -5,10 +5,10 @@
  * Classe: TelaCadastroCliente
  */
 
-package br.uniplan.java_banco_acme.view;
+package br.uniplan.java.banco.acme.view;
 
-import br.uniplan.java_banco_acme.dao.ClienteDAO;
-import br.uniplan.java_banco_acme.model.Cliente;
+import br.uniplan.java.banco.acme.dao.ClienteDAO;
+import br.uniplan.java.banco.acme.model.Cliente;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

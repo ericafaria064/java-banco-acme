@@ -5,13 +5,13 @@
  * Classe: TelaDepositar
  */
 
-package br.uniplan.java_banco_acme.view;
+package br.uniplan.java.banco.acme.view;
 
-import br.uniplan.java_banco_acme.dao.ContaDAO;
-import br.uniplan.java_banco_acme.dao.ContaPoupancaDAO;
-import br.uniplan.java_banco_acme.dao.TransacaoDAO;
-import br.uniplan.java_banco_acme.model.ContaCorrente;
-import br.uniplan.java_banco_acme.model.ContaPoupanca;
+import br.uniplan.java.banco.acme.dao.ContaDAO;
+import br.uniplan.java.banco.acme.dao.ContaPoupancaDAO;
+import br.uniplan.java.banco.acme.dao.TransacaoDAO;
+import br.uniplan.java.banco.acme.model.ContaCorrente;
+import br.uniplan.java.banco.acme.model.ContaPoupanca;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

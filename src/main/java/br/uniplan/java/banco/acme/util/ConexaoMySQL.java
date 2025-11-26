@@ -5,7 +5,7 @@
  * Classe: ConexaoMySQL
  */
 
-package br.uniplan.java_banco_acme.util;
+package br.uniplan.java.banco.acme.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

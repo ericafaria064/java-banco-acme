@@ -5,7 +5,7 @@
  * Classe: ContaPoupanca
  */
 
-package br.uniplan.java_banco_acme.model;
+package br.uniplan.java.banco.acme.model;
 
 /**
  * Classe que representa uma Conta Poupança

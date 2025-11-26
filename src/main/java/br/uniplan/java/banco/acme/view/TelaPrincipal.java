@@ -5,7 +5,7 @@
  * Classe: TelaPrincipal
  */
 
-package br.uniplan.java_banco_acme.view;
+package br.uniplan.java.banco.acme.view;
 
 import javax.swing.*;
 import java.awt.*;
