@@ -1,12 +1,10 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.5.8'
-	id 'io.spring.dependency-management' version '1.1.7'
 }
 
 group = 'br.uniplan'
-version = '0.0.1-SNAPSHOT'
-description = 'Demo project for Spring Boot'
+version = '1.0.0'
+description = 'Sistema Banco ACME - POO II'
 
 java {
 	toolchain {
@@ -19,12 +17,15 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	implementation 'com.mysql:mysql-connector-j:8.0.33'
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+// Task para executar a aplicação
+task run(type: JavaExec) {
+	mainClass = 'br.uniplan.java_banco_acme.view.TelaPrincipal'
+	classpath = sourceSets.main.runtimeClasspath
 }
